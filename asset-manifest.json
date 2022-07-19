@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-study/blog/static/css/main.073c9b0a.css",
-    "main.js": "/react-study/blog/static/js/main.944b25b7.js",
-    "static/js/787.f587e8d5.chunk.js": "/react-study/blog/static/js/787.f587e8d5.chunk.js",
-    "static/media/logo.svg": "/react-study/blog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-study/blog/index.html",
-    "main.073c9b0a.css.map": "/react-study/blog/static/css/main.073c9b0a.css.map",
-    "main.944b25b7.js.map": "/react-study/blog/static/js/main.944b25b7.js.map",
-    "787.f587e8d5.chunk.js.map": "/react-study/blog/static/js/787.f587e8d5.chunk.js.map"
+    "main.css": "/react-study/static/css/main.073c9b0a.css",
+    "main.js": "/react-study/static/js/main.dd2bab4f.js",
+    "static/js/787.7488bb60.chunk.js": "/react-study/static/js/787.7488bb60.chunk.js",
+    "static/media/logo.svg": "/react-study/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-study/index.html",
+    "main.073c9b0a.css.map": "/react-study/static/css/main.073c9b0a.css.map",
+    "main.dd2bab4f.js.map": "/react-study/static/js/main.dd2bab4f.js.map",
+    "787.7488bb60.chunk.js.map": "/react-study/static/js/787.7488bb60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.944b25b7.js"
+    "static/js/main.dd2bab4f.js"
   ]
 }
