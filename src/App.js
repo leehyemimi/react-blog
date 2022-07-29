@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h3 className="black-tit">블로그 </h3>
+        <h3 className="black-tit">블로그1 </h3>
         <button onClick={ () => {
           let copy_title = [...글제목];
           copy_title[0] = "여자 코트 추천";
