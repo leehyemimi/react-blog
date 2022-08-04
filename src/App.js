@@ -16,6 +16,18 @@ function App() {
 	let [입력값,입력값변경] = useState('');
 	let [날짜,날짜변경] = useState(['2월 17일','2월 17일','2월 17일']);
 
+	function publish(){
+		let copy = [...글제목];
+		let copy1 = [...따봉];
+		let copy2 = [...날짜];
+		copy.unshift(입력값);
+		copy1.unshift(0);
+		copy2.unshift(month+1 + '월 ' + date +'일');
+		글제목변경(copy);
+		따봉변경(copy1);
+		날짜변경(copy2);
+	}
+
 	return (
 		<div className="App">
 			<div className="black-nav">
@@ -62,7 +74,7 @@ function App() {
 				입력값변경(e.target.value)
 			}} />
 			<button onClick={()=>{
-				입력값 != '' ? 실행() : '';
+				입력값 != '' ? publish() : '';
 			}}>글발행</button>
 			
 			{
@@ -71,18 +83,6 @@ function App() {
 			
 		</div>
 	);
-
-	function 실행(){
-		let copy = [...글제목];
-		let copy1 = [...따봉];
-		let copy2 = [...날짜];
-		copy.unshift(입력값);
-		copy1.unshift(0);
-		copy2.unshift(month+1 + '월 ' + date +'일');
-		글제목변경(copy);
-		따봉변경(copy1);
-		날짜변경(copy2);
-	}
 }
 
 
